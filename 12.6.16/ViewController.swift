@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     @IBAction func click(_ sender: Any) {
         count += 1
         
-        if count >= 10 {
-            OurLabel.text = "You have clicked 10 or more times!"
+        if count >= 5 {
+            OurLabel.text = "You have clicked 5 or more times!"
         }
     }
     override func viewDidLoad() {
